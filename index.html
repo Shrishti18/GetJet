@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetJet</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body onload="checkCookie()">
+
+    <header>
+        <div class="logo">
+            <img src="logo.png"alt="logo">
+        </div>
+        <div class="navbar">
+            <a href="#home">HOME </a>
+            <a href="#about">ABOUT   </a>
+            <a href="#feature">GUIDE  </a>
+            <a href="#news">BOOK  </a>
+            <a href="#contacts">CONTACTS</a>
+        </div>
+        <div class="btn-navbar">
+            <a href="form.xhtml">
+                <button class="register">CHECK IN</button>
+            </a>
+            
+    
+        </div>
+    </header> 
+    <section>
+        <div class="home-para1" id="home">
+            <div class="home-para1-left">
+                <div class="home-para1-writtenpart">
+                    <h1>AROUND THE WORLD </h1>
+                    <h2 id="date">in 80 days</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.Modi minus iusto sequi molestias cupiditate alias officiis pariatur magnam blanditiis doloremque quod, earum commodi id. Maiores quos officia assumenda aliquid eaque?</p>
+
+                </div>
+                <div class="home-para1-buttons">
+                    <button onclick="explore()" class="home-para1-button1">Lets explore</button>
+                </div>
+            </div>
+            <div class="home-para1-picture">
+                <img src="home.png">
+            </div>
+            <!-- <div class="home-para2-picture">
+                <img src="home.png">
+            </div> -->
+        </div>
+    </section>
+    <section>
+        <div class="about" id="about">
+            <div class="about-img">
+                <img src="about.png">
+            </div>
+            <div class="about-written">
+                <h2>ABOUT</h2>
+                <div class="about-written-first">
+
+                    <div class="about-written-first-written">
+                        <h3>Aviation specialists you can trust</h3>
+                        <p>GetJet airlines is an IOSA registered Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo dolores expedita provident aut in pariatur, fugit reprehenderit. Consequatur aliquid accusamus odit iste non possimus eaque beatae ducimus neque optio..</p>
+                        
+                    </div>
+                </div>
+                
+             </div>
+        </div>
+    </section>   
+    <section>
+        <div class="guide" id="guide">
+            <div class="card1 card">
+                <div class="card1-image card-image">
+                    <img src="card1.png" alt="photo">
+                </div>
+                <div class="card1-name name">
+                    <div class="card1-name-written card-written">
+                        <p class="airplane-name">AIRBUS 330-300</p>
+                        <p class="airplane-address">Goa->Mumbai</p>
+                    </div>
+                    
+            </div>
+            </div>
+            <div class="card2 card">
+                <div class="card2-image card-image">
+                    <img src="card2.png" alt="photo">
+                </div>
+                <div class="card2-name name">
+                    <div class="card2-name-written card-written">
+                        <p class="airplane-name">Boeing 734</p>
+                        <p class="airplane-address">Jaipur->Mumbai</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="card3 card">
+                <div class="card3-image card-image">
+                    <img src="card3.png" alt="photo">
+                </div>
+                <div class="card3-name name">
+                    <div class="card3-name-written card-written">
+                        <p class="airplane-name">AIRBUS 330-300</p>
+                        <p class="airplane-address">Mumbai->Jaipur</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="book">
+        <div class="book-ticket" id="book-ticket">
+                <div class="write">
+                    <h1>Book your tickets,might get discount 20%</h1>
+                    <input onfocus="inputemail(this)" type="text" placeholder="Enter Your Email">
+                    <input onfocus="inputemail(this)" type="text" placeholder="Enter Your Number">
+                    <input type="button" value="Subscribe">
+                  </div>
+    
+            </div>
+        </div>
+     </section>
+     <section>
+        <div class="review" id="review">
+            <div class="box">
+                <h2 id="head"></h2>
+                <p id="body"></p>
+            </div>
+            <div class="toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16" class="toggle-left" onclick="moveLeft()">
+                    <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16" onclick="moveRight()">
+                    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer" id="footer">
+            <div class="footer-column1">
+                <img src="logo.png">
+
+            </div>
+            
+            <div class="footer-column3">
+                <h2>COMPANY</h2>
+                <a href="#about">About</a><br>
+                <a href="#contact">Contacts</a><br>
+                <a href="#blog">Blog</a><br>
+                <a href="#carrer">Career</a>
+                
+            </div>
+            <div class="footer-column4">
+                <h2>CONTACT US</h2>
+                <ul  >
+                    <li>travell20@gmail.com</li>
+                <li>987654321</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>

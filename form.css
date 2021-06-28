@@ -1,0 +1,96 @@
+
+.title
+{
+  margin-top: 100px; 
+  align-content: center; 
+  margin-left: 50vh;
+  margin-bottom: 20px;
+  size: 200;
+}
+body{
+
+    background-image:url(back.jpg);
+    background-size: cover;
+}
+.container{
+    margin-left: 25vw;
+    margin-right: 20vw;
+    margin-top: 5vh;
+    height: 500px;
+    width: 700px;
+    background: rgba(211, 211, 211, 0.534);
+    border:rgb(rgb(0, 153, 255), rgb(0, 119, 128), rgba(10, 89, 141, 0.384)) ;
+}
+.form{
+    margin-left: 20px;
+   scroll-padding-block: auto ; 
+}
+.fname
+{
+    color: rgb(2, 35, 48);
+    font-weight: bolder;
+}
+.name
+{
+    color: rgb(2, 35, 48);
+    font-weight: bolder;
+}
+input[type=text],select{
+    width: 20vw;
+    padding: 12px 20px;
+    margin-top:10px;
+    display: inline-block;
+    border:3px solid rgb(93, 167, 201);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email],select{
+    width: 20vw;
+    padding: 12px 20px;
+    margin-top:30px;
+    display: inline-block;
+    border:1px solid #ccc;
+    border:3px solid rgb(93, 167, 201);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.password
+{
+    color: rgb(2, 35, 48);
+    font-weight: bolder;
+}
+input[type=password],select{
+    width: 20vw;
+    padding: 12px 20px;
+    margin-top:30px;
+    display: inline-block;
+    border:1px solid #ccc;
+    border:3px solid rgb(93, 167, 201);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.gender{
+    margin-top: 30px;
+}
+.gender label{
+    font-weight: bolder;
+}
+.date{
+    margin-top: 30px;
+}
+.date label{
+    font-weight: bolder;
+}
+button{
+    display: inline-flex;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 1.5vh 2vw 1.5vh 2vw;
+    background-color: rgb(0, 76, 139);
+    color: darkgray;
+    border: none;
+}
+button:hover{
+  background-color: rgb(126, 198, 226);
+  color: black;
+}
